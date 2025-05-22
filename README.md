@@ -14,3 +14,21 @@ python port_scanner.py
 
 Port 22 is open
 Port 80 is open
+
+🖥️ 2. Server Health Check Script
+✅ Purpose:
+Monitor key system metrics like CPU, RAM, and disk usage.
+
+📋 Description:
+This script uses the psutil library to print out system health metrics. Useful for setting up regular system audits or quick diagnostics.
+
+🛠️ How to Use:
+pip install psutil
+python server_health_check.py
+
+🧪 Example Output:
+
+Hostname: myserver
+CPU Usage: 15.5 %
+Memory Usage: 67.3 %
+Disk Usage: 52.1 %
